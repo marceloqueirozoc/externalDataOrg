@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Search" icon-name="utility:search">
+        <div style="height: 100px;">
+            <lightning-input type="search" label="Search" onchange={updateSearch}>
+            </lightning-input>
+        </div>
+    </lightning-card>
+    <lightning-card title="Result" icon-name="utility:table">
+        <div style="height: 400px;">
+            <lightning-datatable key-field="id" data={data} columns={columns}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

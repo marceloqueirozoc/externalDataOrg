@@ -1,0 +1,3 @@
+<apex:page standardcontroller="Case" showQuickActionVfHeader="false" >
+    <flow:interview name="aaaaaaaaaaaaaaaa"/>
+</apex:page>
